@@ -1,7 +1,8 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <!-- Bootstrap -->
@@ -27,7 +28,7 @@
          $data = sparql_get(
          "http://localhost:3030/ProfilPasar",
          "
-            PREFIX ab: <http://profilpasar.com/> .
+            PREFIX ab: <http://profilpasar.com/>
             PREFIX d:  <http://profilpasar.com/ns/data#> 
             PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
             
@@ -35,14 +36,14 @@
             WHERE
             { 
                 ?items
-                    item:nama           ?nama ;
-                    item:alamat         ?alamat ;
-                    item:kecamatan      ?kecamatan ;
-                    item:kelurahan      ?kelurahan ;
-                    item:luas           ?luas ;
-                    item:karakteristik  ?karakteristik ;
-                    item:komoditi       ?komoditi ;
-                    item:bersertifikat  ?bersertifikat .
+                    ab:nama           ?nama ;
+                    ab:alamat         ?alamat ;
+                    ab:kecamatan      ?kecamatan ;
+                    ab:kelurahan      ?kelurahan ;
+                    ab:luas           ?luas ;
+                    ab:karakteristik  ?karakteristik ;
+                    ab:komoditi       ?komoditi ;
+                    ab:bersertifikat  ?bersertifikat .
                     FILTER 
                     (regex (?Nama, '$searchInput', 'i') 
                     || regex (?alamat, '$searchInput', 'i') 
@@ -59,7 +60,7 @@
          $data = sparql_get(
          "http://localhost:3030/ProfilPasar",
          "
-            PREFIX ab: <http://profilpasar.com/> .
+            PREFIX ab: <http://profilpasar.com/>
             PREFIX d:  <http://profilpasar.com/ns/data#> 
             PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
             
@@ -67,14 +68,14 @@
             WHERE
             { 
                 ?items
-                    item:nama           ?nama ;
-                    item:alamat         ?alamat ;
-                    item:kecamatan      ?kecamatan ;
-                    item:kelurahan      ?kelurahan ;
-                    item:luas           ?luas ;
-                    item:karakteristik  ?karakteristik ;
-                    item:komoditi       ?komoditi ;
-                    item:bersertifikat  ?bersertifikat .
+                    ab:nama           ?nama ;
+                    ab:alamat         ?alamat ;
+                    ab:kecamatan      ?kecamatan ;
+                    ab:kelurahan      ?kelurahan ;
+                    ab:luas           ?luas ;
+                    ab:karakteristik  ?karakteristik ;
+                    ab:komoditi       ?komoditi ;
+                    ab:bersertifikat  ?bersertifikat .
             }
          "
          );
@@ -103,7 +104,6 @@
         </div>
     </nav>
     <!-- End Navbar -->
-    </nav> -->
 
     <!-- Jumbotron -->
     <div class="hero">
