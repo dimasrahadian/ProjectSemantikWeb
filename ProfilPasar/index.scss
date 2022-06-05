@@ -1,0 +1,203 @@
+// Font Sources
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Open+Sans:wght@400;500;600;700&display=swap');
+
+// Color
+$PrimaryColor:#219653;
+$SecondaryColor:#CDE3FD;
+$Black1Color:#171215;
+$Black2Color: #6A6D7C;
+$GreyColor: #9EA0AC;
+$WhiteColor: #FAFAFA;
+
+// Typography
+@mixin Heading-1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 110%;
+    margin: 0;
+}
+@mixin Heading-2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 110%;
+    margin: 0;
+}
+@mixin Heading-3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 110%;
+    margin: 0;
+}
+@mixin Title-1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    margin: 0;
+}
+@mixin Title-2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    margin: 0;
+}
+@mixin body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    margin: 0;
+}
+@mixin label {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0;
+}
+
+h1 {
+    @include Heading-1();
+}
+h2 {
+    @include Heading-2();
+}
+h3 {
+    @include Heading-3();
+}
+h4 {
+    @include Title-1();
+}
+h5 {
+    @include Title-2();
+}
+h6 {
+    @include label();
+}
+p {
+    @include body();
+}
+
+// Body
+body {
+    background-color: $WhiteColor;
+}
+.container {
+    padding: 0;
+}
+
+// Navbar
+nav {
+    box-shadow: 0 8px 8px rgba(23, 18, 21, 0.08);
+    background-color: $WhiteColor;
+    .container {
+        height: 68px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 40px;
+            color: $PrimaryColor;
+        }
+        .navLink {
+            width: 28%;
+            display: flex;
+            justify-content: space-between;
+            margin: 0;
+            .navItem {
+                list-style: none;
+                .button {
+                    @include label();
+                    text-decoration: none;
+                    color: $Black1Color;
+                }
+                .active {
+                    color: $PrimaryColor;
+                }
+            }
+        }
+    }
+}
+
+.hero {
+    padding: 104px;
+    background-color: $PrimaryColor;
+    .container {
+        .heading {
+            padding-bottom: 32px;
+            h1 {
+                padding-bottom: 16px;
+                color : $WhiteColor;
+            }
+        }
+        form {
+            width: 40%;
+            margin: auto;
+            input {
+                width: 80%;
+                padding: 7px 11px;
+                border-radius: 4px;
+                border: 1px solid $GreyColor;
+            }
+            button {
+                width: 20%;
+                padding: 8px 24px;
+                background-color: $Black1Color;
+                text-decoration: none;
+                color: $WhiteColor;
+                border-radius: 4px;
+            }
+        }
+    }
+}
+
+// Footer
+footer {
+    background-color: $Black1Color;
+    margin-top: 8px;
+    .container {
+        padding: 40px 0;
+        .contain {
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .logo {
+                width: 15%;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 40px;
+                color: $PrimaryColor;
+            }
+            .navLink {
+                width: 26%;
+                display: flex;
+                justify-content: space-between;
+                margin: 0;
+                padding: 0;
+                .navItem {
+                    list-style: none;
+                    .button {
+                        text-decoration: none;
+                        @include label();
+                        color: $Black2Color;
+                    }
+                }
+            }
+            .socialMedia {
+                width: 14%;
+                display: flex;
+                justify-content: space-around;
+                color: $Black2Color;
+            }
+        }
+    }
+}

@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Open+Sans:wght@400;500;600;700&display=swap");
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 110%;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 110%;
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 110%;
+  margin: 0;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  margin: 0;
+}
+
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  margin: 0;
+}
+
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 0;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  margin: 0;
+}
+
+body {
+  background-color: #FAFAFA;
+}
+
+.container {
+  padding: 0;
+}
+
+nav {
+  -webkit-box-shadow: 0 8px 8px rgba(23, 18, 21, 0.08);
+          box-shadow: 0 8px 8px rgba(23, 18, 21, 0.08);
+  background-color: #FAFAFA;
+}
+
+nav .container {
+  height: 68px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .container .logo {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  color: #219653;
+}
+
+nav .container .navLink {
+  width: 28%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+}
+
+nav .container .navLink .navItem {
+  list-style: none;
+}
+
+nav .container .navLink .navItem .button {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 0;
+  text-decoration: none;
+  color: #171215;
+}
+
+nav .container .navLink .navItem .active {
+  color: #219653;
+}
+
+.hero {
+  padding: 104px;
+  background-color: #219653;
+}
+
+.hero .container .heading {
+  padding-bottom: 32px;
+}
+
+.hero .container .heading h1 {
+  padding-bottom: 16px;
+  color: #FAFAFA;
+}
+
+.hero .container form {
+  width: 40%;
+  margin: auto;
+}
+
+.hero .container form input {
+  width: 80%;
+  padding: 7px 11px;
+  border-radius: 4px;
+  border: 1px solid #9EA0AC;
+}
+
+.hero .container form button {
+  width: 20%;
+  padding: 8px 24px;
+  background-color: #171215;
+  text-decoration: none;
+  color: #FAFAFA;
+  border-radius: 4px;
+}
+
+footer {
+  background-color: #171215;
+  margin-top: 8px;
+}
+
+footer .container {
+  padding: 40px 0;
+}
+
+footer .container .contain {
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .container .contain .logo {
+  width: 15%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  color: #219653;
+}
+
+footer .container .contain .navLink {
+  width: 26%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+footer .container .contain .navLink .navItem {
+  list-style: none;
+}
+
+footer .container .contain .navLink .navItem .button {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 0;
+  color: #6A6D7C;
+}
+
+footer .container .contain .socialMedia {
+  width: 14%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #6A6D7C;
+}
+/*# sourceMappingURL=index.css.map */

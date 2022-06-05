@@ -1,0 +1,16 @@
+@prefix ab: <http://profilpasar.com/>
+@prefix d:  <http://profilpasar.com/ns/data#>
+
+SELECT ?nama ?alamat ?kecamatan ?kelurahan ?luas ?karakteristik ?komoditi ?bersertifikat
+WHERE
+{ 
+    ?items
+        ab:nama           ?nama ;
+        ab:alamat         ?alamat ;
+        ab:kecamatan      ?kecamatan ;
+        ab:kelurahan      ?kelurahan ;
+        ab:luas           ?luas ;
+        ab:karakteristik  ?karakteristik ;
+        ab:komoditi       ?komoditi ;
+        ab:bersertifikat  ?bersertifikat .
+}

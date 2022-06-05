@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Open+Sans:wght@400;500;600;700&display=swap");
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 110%;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 110%;
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 110%;
+  margin: 0;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  margin: 0;
+}
+
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  margin: 0;
+}
+
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 0;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  margin: 0;
+}
+
+body {
+  background-color: #FAFAFA;
+}
+
+.container {
+  padding: 0;
+}
+
+nav {
+  -webkit-box-shadow: 0 8px 8px rgba(23, 18, 21, 0.08);
+          box-shadow: 0 8px 8px rgba(23, 18, 21, 0.08);
+  background-color: #FAFAFA;
+}
+
+nav .container {
+  height: 68px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .container .logo {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  color: #219653;
+}
+
+nav .container .navLink {
+  width: 28%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+}
+
+nav .container .navLink .navItem {
+  list-style: none;
+}
+
+nav .container .navLink .navItem .button {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 0;
+  text-decoration: none;
+  color: #171215;
+}
+
+nav .container .navLink .navItem .active {
+  color: #219653;
+}
+
+.header {
+  background-color: #219653;
+  margin-top: 68px;
+}
+
+.header .container {
+  padding: 104px 0;
+}
+
+.header .container .heading h1 {
+  padding-bottom: 24px;
+  color: #FAFAFA;
+}
+
+.header .container .heading h5 {
+  width: 50%;
+  margin: auto;
+  color: #FAFAFA;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.form {
+  background-color: #FAFAFA;
+  padding-bottom: 32px;
+}
+
+.form .container {
+  width: 75%;
+  padding: 32px;
+  -webkit-box-shadow: 0 4px 8px rgba(23, 18, 21, 0.08);
+          box-shadow: 0 4px 8px rgba(23, 18, 21, 0.08);
+  border-radius: 8px;
+  border: 1px solid rgba(158, 160, 172, 0.16);
+}
+
+.form .container h4 {
+  padding-bottom: 32px;
+  font-weight: 700;
+}
+
+.form .container .contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form .container .contain label {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 0;
+  color: #171215;
+  padding-bottom: 4px;
+}
+
+.form .container .contain .namaPasar {
+  width: 38%;
+}
+
+.form .container .contain .namaPasar input {
+  width: 100%;
+  border: 1px solid #9EA0AC;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+.form .container .contain .karakteristik {
+  width: 20%;
+}
+
+.form .container .contain .karakteristik select {
+  width: 100%;
+  border: 1px solid #9EA0AC;
+  border-radius: 4px;
+  padding: 2px 2px;
+}
+
+.form .container .contain .sertifikat {
+  width: 20%;
+}
+
+.form .container .contain .sertifikat select {
+  width: 100%;
+  border: 1px solid #9EA0AC;
+  border-radius: 4px;
+  padding: 2px 2px;
+}
+
+.form .container .contain .button {
+  width: 16%;
+}
+
+.form .container .contain .button a {
+  text-decoration: none;
+  color: #FAFAFA;
+  background-color: #219653;
+  border-radius: 6px;
+  padding: 16px 24px;
+  width: 100%;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.about .container {
+  padding: 64px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about .container .row .img .one {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+.about .container .row .img .two {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+.about .container .row .img .three {
+  position: absolute;
+  right: 120px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.about .container .row .contain .heading {
+  padding-bottom: 28px;
+}
+
+.about .container .row .contain .heading h4 {
+  color: #219653;
+  padding-bottom: 8px;
+}
+
+.about .container .row .contain .heading h3 {
+  color: #171215;
+}
+
+.about .container .row .contain .body {
+  color: #6A6D7C;
+}
+
+.benefit .container {
+  padding: 64px 0;
+}
+
+.benefit .container .heading {
+  padding-bottom: 28px;
+}
+
+.benefit .container .heading h4 {
+  color: #219653;
+  padding-bottom: 8px;
+}
+
+.benefit .container .heading h3 {
+  color: #171215;
+}
+
+.benefit .container .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.benefit .container .cards .benefit-cards {
+  width: 31%;
+  border: 1px solid rgba(158, 160, 172, 0.16);
+  border-radius: 8px;
+  padding: 24px 16px;
+  -webkit-box-shadow: 0 4px 8px rgba(23, 18, 21, 0.04);
+          box-shadow: 0 4px 8px rgba(23, 18, 21, 0.04);
+}
+
+.benefit .container .cards .benefit-cards h5 {
+  padding-bottom: 8px;
+  color: #171215;
+}
+
+.benefit .container .cards .benefit-cards p {
+  color: #6A6D7C;
+}
+
+footer {
+  background-color: #171215;
+  margin-top: 8px;
+}
+
+footer .container {
+  padding: 40px 0;
+}
+
+footer .container .contain {
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .container .contain .logo {
+  width: 15%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  color: #219653;
+}
+
+footer .container .contain .navLink {
+  width: 26%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+footer .container .contain .navLink .navItem {
+  list-style: none;
+}
+
+footer .container .contain .navLink .navItem .button {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 0;
+  color: #6A6D7C;
+}
+
+footer .container .contain .socialMedia {
+  width: 14%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #6A6D7C;
+}
+/*# sourceMappingURL=index.css.map */

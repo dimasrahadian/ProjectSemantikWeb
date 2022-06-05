@@ -1,0 +1,353 @@
+@prefix ab: <http://profilpasar.com/>
+@prefix d:  <http://profilpasar.com/ns/data#>
+
+d:001
+    ab:nama            "Andir";
+    ab:alamat          "Jl. Waringin";
+    ab:kecamatan       "Andir";
+    ab:kelurahan       "Ciroyom";
+    ab:luas            "9120";
+    ab:karakteristik   "Pasar Eceran";
+    ab:komoditi        "Pakaian Jadi";
+    ab:bersertifikat   "Ya" . 
+
+d:002
+    ab:nama            "Anyar";
+    ab:alamat          "Jl. Astana Anyar";
+    ab:kecamatan       "Astana Anyar";
+    ab:kelurahan       "Nyengseret";
+    ab:luas            "15700";
+    ab:karakteristik   "Pasar Eceran";
+    ab:komoditi        "Ikan Basah, Bumbu, Keringan";
+    ab:bersertifikat   "Belum" .
+
+d:003
+    ab:nama            "Balubur";
+    ab:alamat          "Jl. Taman Sari";
+    ab:kecamatan       "Bandung Wetan";
+    ab:kelurahan       "Taman Sari";
+    ab:luas            "12504";
+    ab:karakteristik   "Pasar Eceran";
+    ab:komoditi        "Alat Tulis Kantor, Fashion";
+    ab:bersertifikat   "Belum" . 
+
+d:004
+    ab:nama            "Baru";
+    ab:alamat          "Jl. Oto Iskandardinata";
+    ab:kecamatan       "Andir";
+    ab:kelurahan       "Kebon Jeruk";
+    ab:luas            "8920";
+    ab:karakteristik   "Pasar Grosir";
+    ab:komoditi        "Fashion";
+    ab:bersertifikat   "Belum" .
+
+d:005
+    ab:nama            "Cicadas";
+    ab:alamat          "Jl. Ibrahim Adjie";
+    ab:kecamatan       "Kiaracondong";
+    ab:kelurahan       "Babakan Surabaya";
+    ab:luas            "19220";
+    ab:karakteristik   "Pasar Eceran";
+    ab:komoditi        "Basahan, keringan, eceran";
+    ab:bersertifikat   "Ya" . 
+
+d:006
+    ab:nama            "Cicaheum";
+    ab:alamat          "Jl. Kaum";
+    ab:kecamatan       "Kiaracondong";
+    ab:kelurahan       "Padasuka";
+    ab:luas            "3878";
+    ab:karakteristik   "Pasar Eceran";
+    ab:komoditi        "Sayuran, keringan, beras";
+    ab:bersertifikat   "Ya" .   
+
+d:007
+    ab:nama            "Cihapit";
+    ab:alamat          "Jl. Cihapit";
+    ab:kecamatan       "Bandung Wetan";
+    ab:kelurahan       "Cihapit";
+    ab:luas            "1484";
+    ab:karakteristik   "Pasar Eceran";
+    ab:komoditi        "Sayuran, keringan, ayam potong";
+    ab:bersertifikat   "Belum" .
+
+d:008
+    ab:nama            "Cihargeulis";
+    ab:alamat          "Jl. Surapati";
+    ab:kecamatan       "Cibeunying Kaler";
+    ab:kelurahan       "Sukaluyu";
+    ab:luas            "4560";
+    ab:karakteristik   "Pasar Eceran";
+    ab:komoditi        "Sayuran, keringan, ayam potong";
+    ab:bersertifikat   "Ya" .
+
+d:009
+    ab:nama            "Cijerah";
+    ab:alamat          "Jl. Cijerah";
+    ab:kecamatan       "Bandung Kulon";
+    ab:kelurahan       "Cijerah";
+    ab:luas            "2622";
+    ab:karakteristik   "Pasar Eceran";
+    ab:komoditi        "Sayuran, keringan, ayam potong";
+    ab:bersertifikat   "Belum" .
+
+d:010
+    ab:nama            "Cikapundung";
+    ab:alamat          "Jl. ABC";
+    ab:kecamatan       "Sumur Bandung";
+    ab:kelurahan       "Braga";
+    ab:luas            "2699";
+    ab:karakteristik   "Pasar Eceran";
+    ab:komoditi        "Pakaian Jadi";
+    ab:bersertifikat   "Ya" .
+
+d:011
+    ab:nama            "Cikaso";
+    ab:alamat          "Jl. Citamiang";
+    ab:kecamatan       "Cibeunying Kaler";
+    ab:kelurahan       "Cicadas";
+    ab:luas            "1168";
+    ab:karakteristik   "Pasar Eceran";
+    ab:komoditi        "Beras, Keringan";
+    ab:bersertifikat   "Belum" .
+
+d:012
+    ab:nama            "Ciwastra";
+    ab:alamat          "Jl. Darwati";
+    ab:kecamatan       "Rancasari";
+    ab:kelurahan       "Mekarjaya";
+    ab:luas            "8259";
+    ab:karakteristik   "Pasar Eceran";
+    ab:komoditi        "Basahan, keringan";
+    ab:bersertifikat   "Belum" .
+
+d:013
+    ab:nama            "Gang Saleh";
+    ab:alamat          "Jl. Kestarian";
+    ab:kecamatan       "Cicendo";
+    ab:kelurahan       "Arjuna";
+    ab:luas            "353";
+    ab:karakteristik   "Pasar Eceran";
+    ab:komoditi        "Sayuran";
+    ab:bersertifikat   "Belum" .
+
+d:014
+    ab:nama            "Gedebage";
+    ab:alamat          "Jl. Soekarno-Hatta";
+    ab:kecamatan       "Panyileukan";
+    ab:kelurahan       "Mekarmulya";
+    ab:luas            "48140";
+    ab:karakteristik   "Pasar Induk";
+    ab:komoditi        "Pakaian jadi, Aksesoris, Sepatu";
+    ab:bersertifikat   "Belum" .
+
+d:015
+    ab:nama            "Gegerkalong";
+    ab:alamat          "Jl. Gegerkalong Tengah";
+    ab:kecamatan       "Sukasari";
+    ab:kelurahan       "Gegerkalong";
+    ab:luas            "2965";
+    ab:karakteristik   "Pasar Eceran";
+    ab:komoditi        "Sayuran, Keringan";
+    ab:bersertifikat   "Belum" . 
+
+d:016
+    ab:nama            "Gempol";
+    ab:alamat          "Jl. Gempol";
+    ab:kecamatan       "Bandung Wetan";
+    ab:kelurahan       "Citarum";
+    ab:luas            "1250";
+    ab:karakteristik   "Pasar Eceran";
+    ab:komoditi        "Keringan";
+    ab:bersertifikat   "Belum" .
+
+d:017
+    ab:nama            "Karapitan";
+    ab:alamat          "Jl. Karapitan";
+    ab:kecamatan       "Regol";
+    ab:kelurahan       "Ancol";
+    ab:luas            "2592";
+    ab:karakteristik   "Pasar Eceran";
+    ab:komoditi        "Sayuran, keringan, pakaian jadi";
+    ab:bersertifikat   "Belum" .
+
+d:018
+    ab:nama            "Kiaracondong";
+    ab:alamat          "Jl. Ibrahim Adjie";
+    ab:kecamatan       "Kiaracondong";
+    ab:kelurahan       "Kebon Jayanti";
+    ab:luas            "6628";
+    ab:karakteristik   "Pasar Eceran";
+    ab:komoditi        "Sayuran, keringan, pakaian jadi";
+    ab:bersertifikat   "Ya" .
+
+d:019
+    ab:nama            "Kosambi";
+    ab:alamat          "Jl. A. Yani";
+    ab:kecamatan       "Sumur Bandung";
+    ab:kelurahan       "Kebon Pisang";
+    ab:luas            "11715";
+    ab:karakteristik   "Pasar Eceran";
+    ab:komoditi        "Kuliner Khas Bandung";
+    ab:bersertifikat   "Ya" .
+
+d:020
+    ab:nama            "Kota Kembang";
+    ab:alamat          "Jl. Asia Afrika";
+    ab:kecamatan       "Regol";
+    ab:kelurahan       "Balong Gede";
+    ab:luas            "625";
+    ab:karakteristik   "Pasar Eceran";
+    ab:komoditi        "Aksesoris, sepatu sendal";
+    ab:bersertifikat   "Belum" .
+
+d:021
+    ab:nama            "Leuwipanjang";
+    ab:alamat          "Jl. Leuwipanjang";
+    ab:kecamatan       "Bojongloa Kidul";
+    ab:kelurahan       "Situsaeur";
+    ab:luas            "3166";
+    ab:karakteristik   "Pasar Eceran";
+    ab:komoditi        "Ikan Hias, Jaket Kulit, Komoditi Khas";
+    ab:bersertifikat   "Ya" .
+
+d:022
+    ab:nama            "M. Toha / ITC 1";
+    ab:alamat          "Jl. Dewi Sartika";
+    ab:kecamatan       "Regol";
+    ab:kelurahan       "Pungkur";
+    ab:luas            "15810";
+    ab:karakteristik   "Pasar Grosir";
+    ab:komoditi        "Fashion";
+    ab:bersertifikat   "Ya" .
+
+d:023
+    ab:nama            "Pagarsih";
+    ab:alamat          "Jl. Pagarsih";
+    ab:kecamatan       "Astana Anyar";
+    ab:kelurahan       "Cibadak";
+    ab:luas            "2935";
+    ab:karakteristik   "Pasar Khusus";
+    ab:komoditi        "Offset, Sablon";
+    ab:bersertifikat   "Ya" .
+
+d:024
+    ab:nama            "Palasari";
+    ab:alamat          "Jl. Palasari";
+    ab:kecamatan       "Lengkong";
+    ab:kelurahan       "Turangga";
+    ab:luas            "20450";
+    ab:karakteristik   "Pasar Khusus";
+    ab:komoditi        "Buku";
+    ab:bersertifikat   "Ya" .
+
+d:025
+    ab:nama            "Pamoyan";
+    ab:alamat          "Jl. Dursasana";
+    ab:kecamatan       "Cicendo";
+    ab:kelurahan       "Pajajaran";
+    ab:luas            "1344";
+    ab:karakteristik   "Pasar Eceran";
+    ab:komoditi        "Sayuran, Keringan, Ayam Potong";
+    ab:bersertifikat   "Belum" .
+
+d:026
+    ab:nama            "Puyuh";
+    ab:alamat          "Jl. Puyuh";
+    ab:kecamatan       "Coblong";
+    ab:kelurahan       "Lebak Gede";
+    ab:luas            "309";
+    ab:karakteristik   "Pasar Eceran";
+    ab:komoditi        "Basahan";
+    ab:bersertifikat   "Belum" .
+
+d:027
+    ab:nama            "Sadang Serang";
+    ab:alamat          "Jl. Sadang Serang";
+    ab:kecamatan       "Coblong";
+    ab:kelurahan       "Sadang Serang";
+    ab:luas            "4840";
+    ab:karakteristik   "Pasar Eceran";
+    ab:komoditi        "Keringan, basahan, fashion, besi";
+    ab:bersertifikat   "Belum" .
+
+d:028
+    ab:nama            "Sarijadi";
+    ab:alamat          "Jl. Sariasih";
+    ab:kecamatan       "Sukasari";
+    ab:kelurahan       "Sarijadi";
+    ab:luas            "2983";
+    ab:karakteristik   "Pasar Eceran";
+    ab:komoditi        "Basahan, Keringan";
+    ab:bersertifikat   "Belum" .
+
+d:029
+    ab:nama            "Sederhana";
+    ab:alamat          "Jl. Jurang";
+    ab:kecamatan       "Sukajadi";
+    ab:kelurahan       "Pasteur";
+    ab:luas            "9052";
+    ab:karakteristik   "Pasar Eceran";
+    ab:komoditi        "Basahan, Keringan";
+    ab:bersertifikat   "Belum" .
+
+d:030
+    ab:nama            "Jatayu";
+    ab:alamat          "Jl. Komodor Supadio";
+    ab:kecamatan       "Cicendo";
+    ab:kelurahan       "Husein Sastranegara";
+    ab:luas            "1572";
+    ab:karakteristik   "Pasar Khusus";
+    ab:komoditi        "Onderdil, besi";
+    ab:bersertifikat   "Belum" .
+
+d:031
+    ab:nama            "Simpang";
+    ab:alamat          "Jl. Ir. H. Juanda";
+    ab:kecamatan       "Coblong";
+    ab:kelurahan       "Lebak Gede";
+    ab:luas            "897";
+    ab:karakteristik   "Pasar Eceran";
+    ab:komoditi        "Basahan, Keringan";
+    ab:bersertifikat   "Ya" .
+
+d:032
+    ab:nama            "Sukahaji";
+    ab:alamat          "Jl. Peta";
+    ab:kecamatan       "Bojongloa Kaler";
+    ab:kelurahan       "Sukaasih";
+    ab:luas            "2917";
+    ab:karakteristik   "Pasar Khusus";
+    ab:komoditi        "Burung";
+    ab:bersertifikat   "Ya" .
+
+d:033
+    ab:nama            "Ujungberung";
+    ab:alamat          "Jl. A.H. Nasution";
+    ab:kecamatan       "Ujung Berung";
+    ab:kelurahan       "Pasir Wani";
+    ab:luas            "8363";
+    ab:karakteristik   "Pasar Eceran";
+    ab:komoditi        "Fashion, Keringan";
+    ab:bersertifikat   "Belum" .
+
+d:034
+    ab:nama            "Wastukencana";
+    ab:alamat          "Jl. Wastukencana";
+    ab:kecamatan       "Bandung Wetan";
+    ab:kelurahan       "Taman Sari";
+    ab:luas            "3414";
+    ab:karakteristik   "Pasar Khusus";
+    ab:komoditi        "Bunga potong, dekorasi bunga";
+    ab:bersertifikat   "Belum" .
+
+d:035
+    ab:nama            "Banceuy";
+    ab:alamat          "Jl. Banceuy";
+    ab:kecamatan       "Sumur Bandung";
+    ab:kelurahan       "Braga";
+    ab:luas            "1659";
+    ab:karakteristik   "Pasar Khusus";
+    ab:komoditi        "Otomotif, onderdil";
+    ab:bersertifikat   "Belum" . 
+    

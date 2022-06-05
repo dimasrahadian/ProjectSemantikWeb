@@ -1,0 +1,343 @@
+// Font Sources
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Open+Sans:wght@400;500;600;700&display=swap');
+
+// Color
+$PrimaryColor:#219653;
+$SecondaryColor:#CDE3FD;
+$Black1Color:#171215;
+$Black2Color: #6A6D7C;
+$GreyColor: #9EA0AC;
+$WhiteColor: #FAFAFA;
+
+// Typography
+@mixin Heading-1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 110%;
+    margin: 0;
+}
+@mixin Heading-2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 110%;
+    margin: 0;
+}
+@mixin Heading-3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 110%;
+    margin: 0;
+}
+@mixin Title-1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    margin: 0;
+}
+@mixin Title-2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    margin: 0;
+}
+@mixin body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    margin: 0;
+}
+@mixin label {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0;
+}
+
+h1 {
+    @include Heading-1();
+}
+h2 {
+    @include Heading-2();
+}
+h3 {
+    @include Heading-3();
+}
+h4 {
+    @include Title-1();
+}
+h5 {
+    @include Title-2();
+}
+h6 {
+    @include label();
+}
+p {
+    @include body();
+}
+
+// Body
+body {
+    background-color: $WhiteColor;
+}
+.container {
+    padding: 0;
+}
+
+// Navbar
+nav {
+    box-shadow: 0 8px 8px rgba(23, 18, 21, 0.08);
+    background-color: $WhiteColor;
+    .container {
+        height: 68px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 40px;
+            color: $PrimaryColor;
+        }
+        .navLink {
+            width: 28%;
+            display: flex;
+            justify-content: space-between;
+            margin: 0;
+            .navItem {
+                list-style: none;
+                .button {
+                    @include label();
+                    text-decoration: none;
+                    color: $Black1Color;
+                }
+                .active {
+                    color: $PrimaryColor;
+                }
+            }
+        }
+    }
+}
+
+// Jumbotron
+.header {
+    background-color: $PrimaryColor;
+    margin-top: 68px;
+    .container {
+        padding: 104px 0;
+        .heading {
+            h1 {
+                padding-bottom: 24px;
+                color: $WhiteColor;
+            }
+            h5 {
+                width: 50%;
+                margin: auto;
+                color: $WhiteColor;
+                font-weight: 500;
+                line-height: 150%;
+            }
+        }
+    }
+}
+
+.form {
+    // position: absolute;
+    background-color: $WhiteColor;
+    padding-bottom: 32px;
+    .container {
+        width: 75%;
+        padding: 32px;
+        box-shadow: 0 4px 8px rgba(23, 18, 21, 0.08);
+        border-radius: 8px;
+        border: 1px solid rgba(158, 160, 172, 0.16);
+        h4 {
+            padding-bottom: 32px;
+            font-weight: 700;
+        }
+        .contain {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            label {
+                @include label();
+                color: $Black1Color;
+                padding-bottom: 4px;
+            }
+            .namaPasar {
+                width: 38%;
+                input {
+                    width: 100%;
+                    border: 1px solid $GreyColor;
+                    border-radius: 4px;
+                    padding: 2px 4px;
+                }
+            }
+            .karakteristik {
+                width: 20%;
+                select {
+                    width: 100%;
+                    border: 1px solid $GreyColor;
+                    border-radius: 4px;
+                    padding: 2px 2px;
+                }
+            }
+            .sertifikat {
+                width: 20%;
+                select {
+                    width: 100%;
+                    border: 1px solid $GreyColor;
+                    border-radius: 4px;
+                    padding: 2px 2px;
+                }
+            }
+            .button {
+                width: 16%;
+                a {
+                    text-decoration: none;
+                    color:$WhiteColor;
+                    background-color: $PrimaryColor;
+                    border-radius: 6px;
+                    padding: 16px 24px;
+                    width: 100%;
+                    box-sizing: content-box;
+                }
+            }
+        }
+    }
+}
+
+// About
+.about {
+    .container {
+        padding: 64px 0;
+        display: flex;
+        justify-content: space-between;
+        .row {
+            .img {
+                .one {
+                    position: absolute;
+                    top: 100px;
+                    left: 200px;
+                    width: 140px;
+                    height: 140px;
+                    border-radius: 50%;
+                }
+                .two {
+                    width: 160px;
+                    height: 160px;
+                    border-radius: 50%;
+                }
+                .three {
+                    position: absolute;
+                    right: 120px;
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 50%;
+                }
+            }
+            .contain {
+                .heading {
+                    padding-bottom: 28px;
+                    h4 {
+                        color: $PrimaryColor;
+                        padding-bottom: 8px;
+                    }
+                    h3 {
+                        color: $Black1Color;
+                    }
+                }
+                .body {
+                    color: $Black2Color;
+                }
+            }
+        }
+    }
+}
+
+
+
+// Benefit
+.benefit {
+    .container {
+        padding: 64px 0;
+        .heading {
+            padding-bottom: 28px;
+            h4 {
+                color: $PrimaryColor;
+                padding-bottom: 8px;
+            }
+            h3 {
+                color: $Black1Color;
+            }
+        }
+        .cards {
+            display: flex;
+            justify-content: space-between;
+            .benefit-cards {
+                width: 31%;
+                border: 1px solid rgba(158, 160, 172, 0.16);
+                border-radius: 8px;
+                padding: 24px 16px;
+                box-shadow: 0 4px 8px rgba(23, 18, 21, 0.04);
+                h5 {
+                    padding-bottom: 8px;
+                    color: $Black1Color;
+                }
+                p {
+                    color: $Black2Color;
+                }
+            }
+        }
+    }
+}
+// Footer
+footer {
+    background-color: $Black1Color;
+    margin-top: 8px;
+    .container {
+        padding: 40px 0;
+        .contain {
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .logo {
+                width: 15%;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 40px;
+                color: $PrimaryColor;
+            }
+            .navLink {
+                width: 26%;
+                display: flex;
+                justify-content: space-between;
+                margin: 0;
+                padding: 0;
+                .navItem {
+                    list-style: none;
+                    .button {
+                        text-decoration: none;
+                        @include label();
+                        color: $Black2Color;
+                    }
+                }
+            }
+            .socialMedia {
+                width: 14%;
+                display: flex;
+                justify-content: space-around;
+                color: $Black2Color;
+            }
+        }
+    }
+}
